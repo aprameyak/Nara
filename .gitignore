@@ -1,8 +1,87 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+*.egg
 *.egg-info/
-build/
 dist/
+build/
+eggs/
+sdist/
+develop-eggs/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Environment variables / secrets
 .env
+.env.*
+*.env
+!.env.example
+
+# Distribution / packaging
+wheels/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+nosetests.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Logs and scan/tool output
+*.log
+logs/
 nara_targets/
+scan_results/
+reports/
+output/
+
+# Semgrep / Bandit output
+.semgrep/
+semgrep-output/
+bandit-output/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Network capture files
+*.pcap
+*.cap
